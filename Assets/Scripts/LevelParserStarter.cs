@@ -20,11 +20,13 @@ public class LevelParserStarter : MonoBehaviour
     void Start()
     {
         RefreshParse();
+        
     }
 
 
     private void FileParser()
     {
+        filename = "Test";
         string fileToParse = string.Format("{0}{1}{2}.txt", Application.dataPath, "/Resources/", filename);
 
         using (StreamReader sr = new StreamReader(fileToParse))
@@ -56,19 +58,19 @@ public class LevelParserStarter : MonoBehaviour
         switch (spot)
         {
             case 'b': 
-                Debug.Log("Spawn Brick");
+                //Debug.Log("Spawn Brick");
                 ToSpawn = Brick; 
                 break;
             case '?': 
-                Debug.Log("Spawn QuestionBox");
+                //Debug.Log("Spawn QuestionBox");
                 ToSpawn = QuestionBox;
                 break;
             case 'x': 
-                Debug.Log("Spawn Rock");
+                //Debug.Log("Spawn Rock");
                 ToSpawn = Rock;
                 break;
             case 's': 
-                Debug.Log("Spawn Stone");
+                //Debug.Log("Spawn Stone");
                 ToSpawn = Stone; 
                 break;
             //default: Debug.Log("Default Entered"); break;

@@ -13,8 +13,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelParserStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionMark.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelParserStarter.cs" />
       </list>
     </option>
   </component>
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600823792942</updated>
-      <workItem from="1600823810662" duration="4342000" />
+      <workItem from="1600823810662" duration="5092000" />
     </task>
     <servers />
   </component>
