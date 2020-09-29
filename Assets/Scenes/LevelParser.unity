@@ -774,9 +774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e618dd9c12c10ab46a4c6fbe0793a64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  levelText: {fileID: 0}
-  timeText: {fileID: 0}
+  scoreText: {fileID: 134367819}
+  levelText: {fileID: 51623379}
+  timeText: {fileID: 1793878748}
 --- !u!4 &1273785915
 Transform:
   m_ObjectHideFlags: 0

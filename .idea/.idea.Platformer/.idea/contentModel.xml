@@ -21,6 +21,7 @@
           <e p="Test.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="DestoryObject.cs" t="Include" />
           <e p="LevelParserStarter.cs" t="Include" />
           <e p="LevelStats.cs" t="Include" />
           <e p="QuestionMark.cs" t="Include" />
