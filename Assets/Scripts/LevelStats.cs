@@ -12,16 +12,21 @@ public class LevelStats : MonoBehaviour
     [SerializeField] public Text levelText;
 
     [SerializeField] public Text  timeText;
+
+    [SerializeField] public Text coinText;
     
     private float currentTime = 400;
 
-    public float score = 0; 
+    public float score = 0;
+
+    public float coins = 0;
     
     // Start is called before the first frame update
     void Start()
     {
-        levelText.text = "World\n1-1";
+        levelText.text = "1-1";
         scoreText.text = String.Format("{0:000000}", score);
+        coinText.text = String.Format("x{0:00}", coins);
     }
 
     // Update is called once per frame
@@ -44,8 +49,11 @@ public class LevelStats : MonoBehaviour
                 // if we hit a question box give us 100 points
                 if (hit.collider.gameObject.name.Equals("Question(Clone)"))
                 {
-                    score += 100;
-                    scoreText.text = String.Format("{0:000000}", score);
+                    //score += 100;
+                    //scoreText.text = String.Format("{0:000000}", score);
+
+                    coins += 1;
+                    coinText.text = String.Format("x{0:00}", coins);
                 }
             }
             

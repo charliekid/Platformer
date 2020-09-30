@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49dac16-4406-4e02-8b00-b655ae7d5ad7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Platformer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelParser.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelParser.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/blocks/gold_block.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/blocks/gold_block.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600823792942</updated>
       <workItem from="1600823810662" duration="7570000" />
-      <workItem from="1601359045898" duration="2393000" />
+      <workItem from="1601359045898" duration="2455000" />
+      <workItem from="1601435502084" duration="1825000" />
     </task>
     <servers />
   </component>
@@ -108,6 +107,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
